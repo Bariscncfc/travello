@@ -1,5 +1,6 @@
 
 import './App.css';
+import Discover from './components/Discover';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
@@ -11,6 +12,7 @@ function App() {
      </header>
      <body>
        <Hero/>
+       <Discover />
      </body>
     </div>
   );
