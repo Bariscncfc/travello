@@ -1,5 +1,6 @@
 
 import './App.css';
+import Contact from './components/Contact';
 import Discover from './components/Discover';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -13,6 +14,7 @@ function App() {
      <body>
        <Hero/>
        <Discover />
+       <Contact />
      </body>
     </div>
   );
